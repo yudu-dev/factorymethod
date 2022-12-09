@@ -1,6 +1,6 @@
 package factory;
 import developers.Developer;
 
-public abstract class DeveloperFactory {
-    public abstract Developer createDeveloper();
+public interface DeveloperFactory {
+    Developer createDeveloper();
 }
